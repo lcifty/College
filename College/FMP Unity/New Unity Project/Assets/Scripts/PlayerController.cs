@@ -89,10 +89,12 @@ public class PlayerController : MonoBehaviour
         //
         if (Input.GetKeyDown(KeyCode.UpArrow) && extraJumps > 0)
         {
+            Debug.Log("Jump");
             rb.velocity = Vector2.up * jumpforce;
             extraJumps--;
         } else if(Input.GetKeyDown(KeyCode.UpArrow) && extraJumps == 0 && isGrounded == true)
         {
+            Debug.Log("Double Jump");
             rb.velocity = Vector2.up * jumpforce;
         }
     }
