@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-//using UnityEngine.Transform;
 
-
+//Camera Follow.
 public class CamerFollow : MonoBehaviour
 {
   public Transform target;
 
   public float smoothSpeed = 0.125f;
-
+  
+  //Delay For Smooth Scrolling.
   public Vector3 offset;
 
     void FixedUpdate()
