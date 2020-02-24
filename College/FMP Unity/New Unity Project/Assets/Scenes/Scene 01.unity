@@ -163,7 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1374277368}
   smoothSpeed: 0.125
-  offset: {x: 0, y: 2.5, z: -2}
+  offset: {x: 2, y: -10, z: -2}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -406,7 +406,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055857537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.96, y: 0.05, z: 0}
+  m_LocalPosition: {x: 12.96, y: -0.009, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
