@@ -61,8 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CamerFollow.cs" />
-    <Compile Include="Assets\Scripts\Counter.cs" />
-    <Compile Include="Assets\Scripts\Doug.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
