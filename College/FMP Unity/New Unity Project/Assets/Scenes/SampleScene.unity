@@ -1780,7 +1780,7 @@ GameObject:
   - component: {fileID: 1147149558}
   - component: {fileID: 1147149561}
   m_Layer: 0
-  m_Name: Prototype Character
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1870,13 +1870,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147149557}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.51, y: -2.26, z: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 29.58, y: -2.61, z: 0}
   m_LocalScale: {x: 5.23483, y: 5.23483, z: 5.23483}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 45
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1147149561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1886,9 +1886,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1147149557}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c00de93b323bc004dba5c3ed5164b07a, type: 3}
+  m_Script: {fileID: 11500000, guid: 11042287f19e5ae4fab50c75617490dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distance: 5
 --- !u!1 &1160789151
 GameObject:
   m_ObjectHideFlags: 0
@@ -3240,7 +3241,7 @@ GameObject:
   - component: {fileID: 1374277365}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3258,7 +3259,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.054312706, y: -0.17150056}
+  m_Offset: {x: 0.024515271, y: -0.17150056}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3269,7 +3270,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8679018, y: 5.2895966}
+  m_Size: {x: 1.7102449, y: 5.2895966}
   m_EdgeRadius: 0
 --- !u!50 &1374277366
 Rigidbody2D:
