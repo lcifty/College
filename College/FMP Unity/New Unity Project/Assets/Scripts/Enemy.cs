@@ -6,6 +6,8 @@ public class Enemy : MonoBehaviour
 {
     public float distance;
 
+    public float rotationSpeed;
+
     private void Start()
     {
         Physics2D.queriesStartInColliders = false;
@@ -16,6 +18,9 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        transform.Rotate(Vector2.up * rotationSpeed * Time.deltaTime);
+
+
 
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance);
         if (hitInfo.collider != null)
@@ -31,6 +36,11 @@ public class Enemy : MonoBehaviour
             Debug.DrawLine(transform.position, transform.position + transform.right * distance, Color.green);
         }
 
-
+       
     }
+
+
+
+
+   
 }
