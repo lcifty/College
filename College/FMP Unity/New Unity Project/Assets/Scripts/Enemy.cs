@@ -18,7 +18,9 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector2.up * rotationSpeed * Time.deltaTime);
+        //transform.Rotate(Vector2.up * rotationSpeed * Time.deltaTime);
+        //transform.Rotate(Vector2.up * rotationSpeed);
+
 
 
 
