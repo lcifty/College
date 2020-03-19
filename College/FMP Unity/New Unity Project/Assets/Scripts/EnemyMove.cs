@@ -6,7 +6,7 @@ public class EnemyMove : MonoBehaviour
 {
 
     public float speed;
-    public bool turned = true;
+    public bool turned = false;
     private float waitTime;
     public float startWaitTime;
 

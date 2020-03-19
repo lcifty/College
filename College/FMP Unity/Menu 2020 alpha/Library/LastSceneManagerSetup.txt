@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Main menu.unity
+- path: C:/Users/s0269741/Documents/GitHub/College/College/FMP Unity/New Unity Project/Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

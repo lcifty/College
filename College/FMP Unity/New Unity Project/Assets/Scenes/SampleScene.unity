@@ -8629,8 +8629,8 @@ MonoBehaviour:
   turned: 1
   startWaitTime: 1.5
   moveSpots:
-  - {fileID: 1987780014}
   - {fileID: 1638477806}
+  - {fileID: 1987780014}
 --- !u!114 &2095006787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8730,7 +8730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095006785}
   m_LocalRotation: {x: -0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.867, y: -0.36, z: 0}
+  m_LocalPosition: {x: -5.894, y: -0.36, z: 0}
   m_LocalScale: {x: 0.107943386, y: 0.107943386, z: 0.107943386}
   m_Children: []
   m_Father: {fileID: 1693728831}
